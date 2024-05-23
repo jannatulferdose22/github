@@ -1,0 +1,40 @@
+.body{
+    font-family:'poppins',sans-serif;
+    margin:0 ;
+    padding: 0;
+}
+/* top banner stars */
+.top-banner{
+    display: flex;
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+
+}
+.half-width h1{
+    font-size: 40px;
+
+}
+.orange-color{
+    color: orange;
+}
+.half-width a{
+    text-decoration: none;
+    background:linear-gradient(lightsalmon, tomato);
+    color:white;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: .3s all ease-in;
+}
+.half-width img{
+    width: 70%;
+}
+.half-width p{
+    margin-bottom: 40px;
+    
+}
+
