@@ -23,18 +23,38 @@
 }
 .half-width a{
     text-decoration: none;
-    background:linear-gradient(lightsalmon, tomato);
+    background:linear-gradient(45deg,lightsalmon, tomato);
     color:white;
     padding: 10px 20px;
     font-weight: 700;
     border-radius: 5px;
     transition: .3s all ease-in;
 }
+.half-width a:hover{
+    background-image: linear-gradient(powderblue,lightpink);
+       
+}
 .half-width img{
     width: 70%;
+    transition: .3s all ease-in;
+}
+.half-width img:hover{
+    transition:scale(.8);
 }
 .half-width p{
     margin-bottom: 40px;
     
 }
+/* top banner ends */
+/* dream big start */
+.dream-big{
+    display: flex;
+    background-image: url(img/red-starburst-sunburst-burst-badge-sticker-banner-png.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 120px;
+    padding-right: 10%;
+}
+
+/* dream big ends */
 
